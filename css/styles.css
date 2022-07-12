@@ -4,7 +4,10 @@
 .list{
     list-style: none;
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
 /* header */
 .part-logo{
     font-family: 'Raleway',sans-serif;
@@ -19,13 +22,11 @@
     color: #000000;
 }
 .menu-link{
-    font-family: 'Roboto', sans-serif;
         font-weight: 500;
         font-size: 14px;
         line-height: 1,14;
         letter-spacing: 0.02em;
-    
-        color: #212121;
+    color: #212121;
 }
 .menu-link:hover,
 .menu-link:focus{
@@ -33,7 +34,7 @@
 }
 .cotnact-mail,
 .contact-phone {
-    font-family: 'Roboto', sans-serif;
+    
         font-weight: 500;
         font-size: 14px;
         line-height: 1,14;
@@ -49,9 +50,11 @@
 .cotnact-mail:focus{
 color: #2196F3;
 }
+.hero{
+    background: #2F303A;
+}
 .hero-title{
-    font-family: 'Roboto',
-        sans-serif;
+    
         font-weight: 900;
         font-size: 44px;
         line-height: 1,36;
@@ -60,11 +63,11 @@ color: #2196F3;
         letter-spacing: 0.06em;
         text-transform: uppercase;
     
-        /* color: #FFFFFF; */
+        color: #FFFFFF;
+        
 }
 .hero-btm{
-    font-family: 'Roboto',
-        sans-serif;
+    
         font-weight: 700;
         font-size: 16px;
         line-height: 1,88;
@@ -80,84 +83,78 @@ color: #2196F3;
 }
 
 .benefits-title{
-    font-family: 'Roboto', sans-serif;
+    
         font-weight: 700;
         font-size: 14px;
         line-height: 1,14;
         letter-spacing: 0.03em;
         text-transform: uppercase;
     
-        color: #212121;
 }
 .benefits-text{
-    font-family: 'Roboto';
-        font-weight: 400;
+    
+    
         font-size: 14px;
         line-height: 1,71;
-        /* or 171% */
         letter-spacing: 0.03em;
     
         color: #757575;
 }
 .basic-title{
-    font-family: 'Roboto', sans-serif;
+    
         font-weight: 700;
         font-size: 36px;
         line-height: 1,17;
+        text-align: center;
         letter-spacing: 0.03em;
-    
-        color: #212121;
 }
 
 .team-title{
-    font-family: 'Roboto',sans-serif;
+  
         font-weight: 500;
         font-size: 16px;
         line-height: 1,18;
-       
+        text-align: center;
         letter-spacing: 0.03em;
     
-        color: #212121;
 }
 .team-text  {
-    font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+   
         font-size: 16px;
         line-height: 19px;
-        
+        text-align: center;
         letter-spacing: 0.03em;
     
         color: #757575;
 }
-
+.footer{
+    background: #2F303A;
+}
 .footer-adress,
 .footer-mail,
 .footer-phone {
-    font-family: 'Roboto', sans-serif;
+    
     font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1,71;
         letter-spacing: 0.03em;
     
-        /* color: #FFFFFF; */
+        color: #FFFFFF;
 }
 .footer-mail,
 .footer-phone {
-    /* color: rgba(255, 255, 255, 0.6); */
+    color: rgba(255, 255, 255, 0.6);
 }
 
 
 /* ПОРТФОЛИО */
 .filters-btm{
-    font-family: 'Roboto', sans-serif;
+    
         font-weight: 500;
         font-size: 16px;
         line-height: 1,62;
         text-align: center;
         letter-spacing: 0.03em;
-    
-        color: #212121;
         cursor: pointer;
 }
 .filters-btm:hover,
@@ -167,10 +164,10 @@ color: #2196F3;
         
 }
 .cases-text{
-    font-family: 'Roboto', sans-serif;
-        font-weight: 400;
+    
         font-size: 16px;
         line-height: 1,88;
+        text-align: center;
         letter-spacing: 0.03em;
     
         color: #757575;
