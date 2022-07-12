@@ -104,7 +104,6 @@ color: #2196F3;
         font-weight: 700;
         font-size: 36px;
         line-height: 1,17;
-        text-align: center;
         letter-spacing: 0.03em;
     
         color: #212121;
@@ -146,4 +145,33 @@ color: #2196F3;
 .footer-mail,
 .footer-phone {
     /* color: rgba(255, 255, 255, 0.6); */
+}
+
+
+/* ПОРТФОЛИО */
+.filters-btm{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,62;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+        cursor: pointer;
+}
+.filters-btm:hover,
+.filters-btm:focus{
+    background: #2196F3;
+    color: #FFFFFF;
+        
+}
+.cases-text{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,88;
+        letter-spacing: 0.03em;
+    
+        color: #757575;
 }
